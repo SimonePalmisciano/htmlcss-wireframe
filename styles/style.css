@@ -19,3 +19,9 @@ header{
     border-bottom-style: solid;
     border-color: black;
 }
+
+h1{
+    padding: 10px;
+    width: 512px;
+    text-align: center;
+}
