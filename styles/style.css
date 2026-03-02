@@ -10,5 +10,12 @@
 
 body {
     width: 512px;
-    border: 2px dashed black;
+}
+
+/* Intestazione */
+
+header{
+    border-bottom: 3px;
+    border-bottom-style: solid;
+    border-color: black;
 }
