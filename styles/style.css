@@ -42,6 +42,7 @@ body {
     overflow: auto; /* in questo modo se il testo va fuori dalla card uscirà una scroll bar altrimenti terrà il contenuto in questo modo */
     /* overflow-y: ; */
     /* overflow-x: ; */
+}
 
 /* footer */
 
