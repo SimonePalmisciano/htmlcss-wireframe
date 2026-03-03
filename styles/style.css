@@ -6,44 +6,46 @@
     box-sizing: border-box;
 }
 
-/* impostazione base */
+/* Stile Generale */
 
 body {
     width: 512px;
 }
 
-/* Intestazione */
+/* Utility Class */
 
-header{
-    border-bottom: 3px;
-    border-bottom-style: solid;
-    border-color: black;
-}
-
-h1{
-    padding: 10px;
-    width: 512px;
+.text-center{
     text-align: center;
 }
 
+/* Intestazione */
+
+.header{
+    border-bottom: 3px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Main */
+
+.main-container{
+    /* padding: 10px 25px; */
+}
 
 /* Sezione articolo */
 
 .card{
     border: 3px solid black;
-    margin: 15px 40px;
+    margin: 15px 40px; /*si può fare cosi per dare spazio oppure mettere il padding al contenitore della card */
     padding: 20px 20px;
-}
+    min-height: 150px;
+    overflow: auto; /* in questo modo se il testo va fuori dalla card uscirà una scroll bar altrimenti terrà il contenuto in questo modo */
+    /* overflow-y: ; */
+    /* overflow-x: ; */
 
 /* footer */
 
 footer{
-    border-top: 3px;
-    border-top-style: solid;
-    border-color: black;
+    border-top: 3px solid black;
     padding: 10px; 
-}
-
-address{
-    text-align: center;
 }
